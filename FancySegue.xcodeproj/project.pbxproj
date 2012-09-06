@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8314955015B2C80E006BC93E /* FSGLBoxTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8314954F15B2C80E006BC93E /* FSGLBoxTransitionViewController.m */; };
+		8342954315B6698400B7E12A /* FSGLTileFlyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8342954215B6698400B7E12A /* FSGLTileFlyViewController.m */; };
+		8342954B15B6A3F700B7E12A /* miles_photo_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8342954715B6A3F700B7E12A /* miles_photo_1.jpg */; };
+		8342954C15B6A3F700B7E12A /* miles_photo_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8342954815B6A3F700B7E12A /* miles_photo_2.jpg */; };
+		8342954D15B6A3F700B7E12A /* miles_photo_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8342954915B6A3F700B7E12A /* miles_photo_3.jpg */; };
+		8342954E15B6A3F700B7E12A /* miles_photo_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8342954A15B6A3F700B7E12A /* miles_photo_4.jpg */; };
+		8352AEAA15ED7C61001BE968 /* FSGLClothFlipTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8352AEA915ED7C61001BE968 /* FSGLClothFlipTransitionViewController.m */; };
+		8352AED815ED8214001BE968 /* CMTPAttraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8352AEC415ED8214001BE968 /* CMTPAttraction.m */; };
+		8352AED915ED8214001BE968 /* CMTPCustomForce.m in Sources */ = {isa = PBXBuildFile; fileRef = 8352AEC715ED8214001BE968 /* CMTPCustomForce.m */; };
+		8352AEDA15ED8214001BE968 /* CMTPForce.m in Sources */ = {isa = PBXBuildFile; fileRef = 8352AEC915ED8214001BE968 /* CMTPForce.m */; };
+		8352AEDB15ED8214001BE968 /* CMTPIntegrator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8352AECB15ED8214001BE968 /* CMTPIntegrator.m */; };
+		8352AEDC15ED8214001BE968 /* CMTPModifiedEulerIntegrator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8352AECD15ED8214001BE968 /* CMTPModifiedEulerIntegrator.m */; };
+		8352AEDD15ED8214001BE968 /* CMTPParticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8352AECF15ED8214001BE968 /* CMTPParticle.m */; };
+		8352AEDE15ED8214001BE968 /* CMTPParticleSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8352AED115ED8214001BE968 /* CMTPParticleSystem.m */; };
+		8352AEDF15ED8214001BE968 /* CMTPRungeKuttaIntegrator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8352AED315ED8214001BE968 /* CMTPRungeKuttaIntegrator.m */; };
+		8352AEE015ED8214001BE968 /* CMTPSpring.m in Sources */ = {isa = PBXBuildFile; fileRef = 8352AED515ED8214001BE968 /* CMTPSpring.m */; };
+		8352AEE115ED8214001BE968 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8352AED715ED8214001BE968 /* LICENSE.txt */; };
+		83D18A8815AE86B3002A9A3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D18A8715AE86B3002A9A3F /* UIKit.framework */; };
+		83D18A8A15AE86B3002A9A3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D18A8915AE86B3002A9A3F /* Foundation.framework */; };
+		83D18A8C15AE86B3002A9A3F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D18A8B15AE86B3002A9A3F /* CoreGraphics.framework */; };
+		83D18A9215AE86B3002A9A3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83D18A9015AE86B3002A9A3F /* InfoPlist.strings */; };
+		83D18A9415AE86B3002A9A3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D18A9315AE86B3002A9A3F /* main.m */; };
+		83D18A9815AE86B3002A9A3F /* FSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D18A9715AE86B3002A9A3F /* FSAppDelegate.m */; };
+		83D18A9B15AE86B3002A9A3F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D18A9915AE86B3002A9A3F /* MainStoryboard_iPhone.storyboard */; };
+		83D18A9E15AE86B3002A9A3F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D18A9C15AE86B3002A9A3F /* MainStoryboard_iPad.storyboard */; };
+		83D18AA115AE86B3002A9A3F /* FSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D18AA015AE86B3002A9A3F /* FSViewController.m */; };
+		83D18AA915AE86B3002A9A3F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D18AA815AE86B3002A9A3F /* SenTestingKit.framework */; };
+		83D18AAA15AE86B3002A9A3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D18A8715AE86B3002A9A3F /* UIKit.framework */; };
+		83D18AAB15AE86B3002A9A3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D18A8915AE86B3002A9A3F /* Foundation.framework */; };
+		83D18AB315AE86B3002A9A3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83D18AB115AE86B3002A9A3F /* InfoPlist.strings */; };
+		83D18AB615AE86B3002A9A3F /* FancySegueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D18AB515AE86B3002A9A3F /* FancySegueTests.m */; };
+		83D18AC515AE8723002A9A3F /* FSFancyStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D18AC415AE8723002A9A3F /* FSFancyStoryboardSegue.m */; };
+		83D18AC815AE8997002A9A3F /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D18AC715AE8997002A9A3F /* GLKit.framework */; };
+		83D18ACF15AE8A33002A9A3F /* FSGLScaleRotateTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D18ACE15AE8A33002A9A3F /* FSGLScaleRotateTransitionViewController.m */; };
+		83D18AD115AE8D58002A9A3F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D18AD015AE8D58002A9A3F /* QuartzCore.framework */; };
+		83D18AD315AE8E0B002A9A3F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D18AD215AE8E0B002A9A3F /* OpenGLES.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83D18AAC15AE86B3002A9A3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83D18A7A15AE86B3002A9A3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83D18A8215AE86B3002A9A3F;
+			remoteInfo = FancySegue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8314954E15B2C80E006BC93E /* FSGLBoxTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSGLBoxTransitionViewController.h; sourceTree = "<group>"; };
+		8314954F15B2C80E006BC93E /* FSGLBoxTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSGLBoxTransitionViewController.m; sourceTree = "<group>"; };
+		8342954115B6698400B7E12A /* FSGLTileFlyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSGLTileFlyViewController.h; sourceTree = "<group>"; };
+		8342954215B6698400B7E12A /* FSGLTileFlyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSGLTileFlyViewController.m; sourceTree = "<group>"; };
+		8342954715B6A3F700B7E12A /* miles_photo_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = miles_photo_1.jpg; sourceTree = "<group>"; };
+		8342954815B6A3F700B7E12A /* miles_photo_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = miles_photo_2.jpg; sourceTree = "<group>"; };
+		8342954915B6A3F700B7E12A /* miles_photo_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = miles_photo_3.jpg; sourceTree = "<group>"; };
+		8342954A15B6A3F700B7E12A /* miles_photo_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = miles_photo_4.jpg; sourceTree = "<group>"; };
+		8352AEA815ED7C61001BE968 /* FSGLClothFlipTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSGLClothFlipTransitionViewController.h; sourceTree = "<group>"; };
+		8352AEA915ED7C61001BE968 /* FSGLClothFlipTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSGLClothFlipTransitionViewController.m; sourceTree = "<group>"; };
+		8352AEC315ED8214001BE968 /* CMTPAttraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTPAttraction.h; sourceTree = "<group>"; };
+		8352AEC415ED8214001BE968 /* CMTPAttraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTPAttraction.m; sourceTree = "<group>"; };
+		8352AEC515ED8214001BE968 /* CMTPCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTPCommon.h; sourceTree = "<group>"; };
+		8352AEC615ED8214001BE968 /* CMTPCustomForce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTPCustomForce.h; sourceTree = "<group>"; };
+		8352AEC715ED8214001BE968 /* CMTPCustomForce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTPCustomForce.m; sourceTree = "<group>"; };
+		8352AEC815ED8214001BE968 /* CMTPForce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTPForce.h; sourceTree = "<group>"; };
+		8352AEC915ED8214001BE968 /* CMTPForce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTPForce.m; sourceTree = "<group>"; };
+		8352AECA15ED8214001BE968 /* CMTPIntegrator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTPIntegrator.h; sourceTree = "<group>"; };
+		8352AECB15ED8214001BE968 /* CMTPIntegrator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTPIntegrator.m; sourceTree = "<group>"; };
+		8352AECC15ED8214001BE968 /* CMTPModifiedEulerIntegrator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTPModifiedEulerIntegrator.h; sourceTree = "<group>"; };
+		8352AECD15ED8214001BE968 /* CMTPModifiedEulerIntegrator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTPModifiedEulerIntegrator.m; sourceTree = "<group>"; };
+		8352AECE15ED8214001BE968 /* CMTPParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTPParticle.h; sourceTree = "<group>"; };
+		8352AECF15ED8214001BE968 /* CMTPParticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTPParticle.m; sourceTree = "<group>"; };
+		8352AED015ED8214001BE968 /* CMTPParticleSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTPParticleSystem.h; sourceTree = "<group>"; };
+		8352AED115ED8214001BE968 /* CMTPParticleSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTPParticleSystem.m; sourceTree = "<group>"; };
+		8352AED215ED8214001BE968 /* CMTPRungeKuttaIntegrator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTPRungeKuttaIntegrator.h; sourceTree = "<group>"; };
+		8352AED315ED8214001BE968 /* CMTPRungeKuttaIntegrator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTPRungeKuttaIntegrator.m; sourceTree = "<group>"; };
+		8352AED415ED8214001BE968 /* CMTPSpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTPSpring.h; sourceTree = "<group>"; };
+		8352AED515ED8214001BE968 /* CMTPSpring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTPSpring.m; sourceTree = "<group>"; };
+		8352AED615ED8214001BE968 /* CMTraerPhysics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTraerPhysics.h; sourceTree = "<group>"; };
+		8352AED715ED8214001BE968 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		83D18A8315AE86B3002A9A3F /* FancySegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FancySegue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D18A8715AE86B3002A9A3F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83D18A8915AE86B3002A9A3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83D18A8B15AE86B3002A9A3F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		83D18A8F15AE86B3002A9A3F /* FancySegue-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FancySegue-Info.plist"; sourceTree = "<group>"; };
+		83D18A9115AE86B3002A9A3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83D18A9315AE86B3002A9A3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83D18A9515AE86B3002A9A3F /* FancySegue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FancySegue-Prefix.pch"; sourceTree = "<group>"; };
+		83D18A9615AE86B3002A9A3F /* FSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSAppDelegate.h; sourceTree = "<group>"; };
+		83D18A9715AE86B3002A9A3F /* FSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSAppDelegate.m; sourceTree = "<group>"; };
+		83D18A9A15AE86B3002A9A3F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		83D18A9D15AE86B3002A9A3F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		83D18A9F15AE86B3002A9A3F /* FSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSViewController.h; sourceTree = "<group>"; };
+		83D18AA015AE86B3002A9A3F /* FSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSViewController.m; sourceTree = "<group>"; };
+		83D18AA715AE86B3002A9A3F /* FancySegueTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FancySegueTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D18AA815AE86B3002A9A3F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		83D18AB015AE86B3002A9A3F /* FancySegueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FancySegueTests-Info.plist"; sourceTree = "<group>"; };
+		83D18AB215AE86B3002A9A3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83D18AB415AE86B3002A9A3F /* FancySegueTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FancySegueTests.h; sourceTree = "<group>"; };
+		83D18AB515AE86B3002A9A3F /* FancySegueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FancySegueTests.m; sourceTree = "<group>"; };
+		83D18AC315AE8723002A9A3F /* FSFancyStoryboardSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSFancyStoryboardSegue.h; sourceTree = "<group>"; };
+		83D18AC415AE8723002A9A3F /* FSFancyStoryboardSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSFancyStoryboardSegue.m; sourceTree = "<group>"; };
+		83D18AC715AE8997002A9A3F /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		83D18ACD15AE8A33002A9A3F /* FSGLScaleRotateTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSGLScaleRotateTransitionViewController.h; sourceTree = "<group>"; };
+		83D18ACE15AE8A33002A9A3F /* FSGLScaleRotateTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSGLScaleRotateTransitionViewController.m; sourceTree = "<group>"; };
+		83D18AD015AE8D58002A9A3F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		83D18AD215AE8E0B002A9A3F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83D18A8015AE86B3002A9A3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D18AD315AE8E0B002A9A3F /* OpenGLES.framework in Frameworks */,
+				83D18AD115AE8D58002A9A3F /* QuartzCore.framework in Frameworks */,
+				83D18AC815AE8997002A9A3F /* GLKit.framework in Frameworks */,
+				83D18A8815AE86B3002A9A3F /* UIKit.framework in Frameworks */,
+				83D18A8A15AE86B3002A9A3F /* Foundation.framework in Frameworks */,
+				83D18A8C15AE86B3002A9A3F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D18AA315AE86B3002A9A3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D18AA915AE86B3002A9A3F /* SenTestingKit.framework in Frameworks */,
+				83D18AAA15AE86B3002A9A3F /* UIKit.framework in Frameworks */,
+				83D18AAB15AE86B3002A9A3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8342954515B6A3F700B7E12A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8342954615B6A3F700B7E12A /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8342954615B6A3F700B7E12A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8342954715B6A3F700B7E12A /* miles_photo_1.jpg */,
+				8342954815B6A3F700B7E12A /* miles_photo_2.jpg */,
+				8342954915B6A3F700B7E12A /* miles_photo_3.jpg */,
+				8342954A15B6A3F700B7E12A /* miles_photo_4.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		8352AEC115ED8214001BE968 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				8352AEC215ED8214001BE968 /* CMTraerPhysics */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		8352AEC215ED8214001BE968 /* CMTraerPhysics */ = {
+			isa = PBXGroup;
+			children = (
+				8352AEC315ED8214001BE968 /* CMTPAttraction.h */,
+				8352AEC415ED8214001BE968 /* CMTPAttraction.m */,
+				8352AEC515ED8214001BE968 /* CMTPCommon.h */,
+				8352AEC615ED8214001BE968 /* CMTPCustomForce.h */,
+				8352AEC715ED8214001BE968 /* CMTPCustomForce.m */,
+				8352AEC815ED8214001BE968 /* CMTPForce.h */,
+				8352AEC915ED8214001BE968 /* CMTPForce.m */,
+				8352AECA15ED8214001BE968 /* CMTPIntegrator.h */,
+				8352AECB15ED8214001BE968 /* CMTPIntegrator.m */,
+				8352AECC15ED8214001BE968 /* CMTPModifiedEulerIntegrator.h */,
+				8352AECD15ED8214001BE968 /* CMTPModifiedEulerIntegrator.m */,
+				8352AECE15ED8214001BE968 /* CMTPParticle.h */,
+				8352AECF15ED8214001BE968 /* CMTPParticle.m */,
+				8352AED015ED8214001BE968 /* CMTPParticleSystem.h */,
+				8352AED115ED8214001BE968 /* CMTPParticleSystem.m */,
+				8352AED215ED8214001BE968 /* CMTPRungeKuttaIntegrator.h */,
+				8352AED315ED8214001BE968 /* CMTPRungeKuttaIntegrator.m */,
+				8352AED415ED8214001BE968 /* CMTPSpring.h */,
+				8352AED515ED8214001BE968 /* CMTPSpring.m */,
+				8352AED615ED8214001BE968 /* CMTraerPhysics.h */,
+				8352AED715ED8214001BE968 /* LICENSE.txt */,
+			);
+			path = CMTraerPhysics;
+			sourceTree = "<group>";
+		};
+		83D18A7815AE86B2002A9A3F = {
+			isa = PBXGroup;
+			children = (
+				8352AEC115ED8214001BE968 /* Libraries */,
+				83D18A8D15AE86B3002A9A3F /* FancySegue */,
+				83D18AAE15AE86B3002A9A3F /* FancySegueTests */,
+				83D18A8615AE86B3002A9A3F /* Frameworks */,
+				83D18A8415AE86B3002A9A3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83D18A8415AE86B3002A9A3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83D18A8315AE86B3002A9A3F /* FancySegue.app */,
+				83D18AA715AE86B3002A9A3F /* FancySegueTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83D18A8615AE86B3002A9A3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83D18AD215AE8E0B002A9A3F /* OpenGLES.framework */,
+				83D18AD015AE8D58002A9A3F /* QuartzCore.framework */,
+				83D18AC715AE8997002A9A3F /* GLKit.framework */,
+				83D18A8715AE86B3002A9A3F /* UIKit.framework */,
+				83D18A8915AE86B3002A9A3F /* Foundation.framework */,
+				83D18A8B15AE86B3002A9A3F /* CoreGraphics.framework */,
+				83D18AA815AE86B3002A9A3F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83D18A8D15AE86B3002A9A3F /* FancySegue */ = {
+			isa = PBXGroup;
+			children = (
+				83D18A9615AE86B3002A9A3F /* FSAppDelegate.h */,
+				83D18A9715AE86B3002A9A3F /* FSAppDelegate.m */,
+				83D18A9915AE86B3002A9A3F /* MainStoryboard_iPhone.storyboard */,
+				83D18A9C15AE86B3002A9A3F /* MainStoryboard_iPad.storyboard */,
+				83D18A9F15AE86B3002A9A3F /* FSViewController.h */,
+				83D18AA015AE86B3002A9A3F /* FSViewController.m */,
+				83D18AC315AE8723002A9A3F /* FSFancyStoryboardSegue.h */,
+				83D18AC415AE8723002A9A3F /* FSFancyStoryboardSegue.m */,
+				83D18ACD15AE8A33002A9A3F /* FSGLScaleRotateTransitionViewController.h */,
+				83D18ACE15AE8A33002A9A3F /* FSGLScaleRotateTransitionViewController.m */,
+				8314954E15B2C80E006BC93E /* FSGLBoxTransitionViewController.h */,
+				8314954F15B2C80E006BC93E /* FSGLBoxTransitionViewController.m */,
+				8342954115B6698400B7E12A /* FSGLTileFlyViewController.h */,
+				8342954215B6698400B7E12A /* FSGLTileFlyViewController.m */,
+				8352AEA815ED7C61001BE968 /* FSGLClothFlipTransitionViewController.h */,
+				8352AEA915ED7C61001BE968 /* FSGLClothFlipTransitionViewController.m */,
+				8342954515B6A3F700B7E12A /* Resources */,
+				83D18A8E15AE86B3002A9A3F /* Supporting Files */,
+			);
+			path = FancySegue;
+			sourceTree = "<group>";
+		};
+		83D18A8E15AE86B3002A9A3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83D18A8F15AE86B3002A9A3F /* FancySegue-Info.plist */,
+				83D18A9015AE86B3002A9A3F /* InfoPlist.strings */,
+				83D18A9315AE86B3002A9A3F /* main.m */,
+				83D18A9515AE86B3002A9A3F /* FancySegue-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83D18AAE15AE86B3002A9A3F /* FancySegueTests */ = {
+			isa = PBXGroup;
+			children = (
+				83D18AB415AE86B3002A9A3F /* FancySegueTests.h */,
+				83D18AB515AE86B3002A9A3F /* FancySegueTests.m */,
+				83D18AAF15AE86B3002A9A3F /* Supporting Files */,
+			);
+			path = FancySegueTests;
+			sourceTree = "<group>";
+		};
+		83D18AAF15AE86B3002A9A3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83D18AB015AE86B3002A9A3F /* FancySegueTests-Info.plist */,
+				83D18AB115AE86B3002A9A3F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83D18A8215AE86B3002A9A3F /* FancySegue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D18AB915AE86B3002A9A3F /* Build configuration list for PBXNativeTarget "FancySegue" */;
+			buildPhases = (
+				83D18A7F15AE86B3002A9A3F /* Sources */,
+				83D18A8015AE86B3002A9A3F /* Frameworks */,
+				83D18A8115AE86B3002A9A3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FancySegue;
+			productName = FancySegue;
+			productReference = 83D18A8315AE86B3002A9A3F /* FancySegue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83D18AA615AE86B3002A9A3F /* FancySegueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D18ABC15AE86B3002A9A3F /* Build configuration list for PBXNativeTarget "FancySegueTests" */;
+			buildPhases = (
+				83D18AA215AE86B3002A9A3F /* Sources */,
+				83D18AA315AE86B3002A9A3F /* Frameworks */,
+				83D18AA415AE86B3002A9A3F /* Resources */,
+				83D18AA515AE86B3002A9A3F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83D18AAD15AE86B3002A9A3F /* PBXTargetDependency */,
+			);
+			name = FancySegueTests;
+			productName = FancySegueTests;
+			productReference = 83D18AA715AE86B3002A9A3F /* FancySegueTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83D18A7A15AE86B3002A9A3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FS;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Chris Miles";
+			};
+			buildConfigurationList = 83D18A7D15AE86B3002A9A3F /* Build configuration list for PBXProject "FancySegue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83D18A7815AE86B2002A9A3F;
+			productRefGroup = 83D18A8415AE86B3002A9A3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83D18A8215AE86B3002A9A3F /* FancySegue */,
+				83D18AA615AE86B3002A9A3F /* FancySegueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83D18A8115AE86B3002A9A3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D18A9215AE86B3002A9A3F /* InfoPlist.strings in Resources */,
+				83D18A9B15AE86B3002A9A3F /* MainStoryboard_iPhone.storyboard in Resources */,
+				83D18A9E15AE86B3002A9A3F /* MainStoryboard_iPad.storyboard in Resources */,
+				8342954B15B6A3F700B7E12A /* miles_photo_1.jpg in Resources */,
+				8342954C15B6A3F700B7E12A /* miles_photo_2.jpg in Resources */,
+				8342954D15B6A3F700B7E12A /* miles_photo_3.jpg in Resources */,
+				8342954E15B6A3F700B7E12A /* miles_photo_4.jpg in Resources */,
+				8352AEE115ED8214001BE968 /* LICENSE.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D18AA415AE86B3002A9A3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D18AB315AE86B3002A9A3F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83D18AA515AE86B3002A9A3F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83D18A7F15AE86B3002A9A3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D18A9415AE86B3002A9A3F /* main.m in Sources */,
+				83D18A9815AE86B3002A9A3F /* FSAppDelegate.m in Sources */,
+				83D18AA115AE86B3002A9A3F /* FSViewController.m in Sources */,
+				83D18AC515AE8723002A9A3F /* FSFancyStoryboardSegue.m in Sources */,
+				83D18ACF15AE8A33002A9A3F /* FSGLScaleRotateTransitionViewController.m in Sources */,
+				8314955015B2C80E006BC93E /* FSGLBoxTransitionViewController.m in Sources */,
+				8342954315B6698400B7E12A /* FSGLTileFlyViewController.m in Sources */,
+				8352AEAA15ED7C61001BE968 /* FSGLClothFlipTransitionViewController.m in Sources */,
+				8352AED815ED8214001BE968 /* CMTPAttraction.m in Sources */,
+				8352AED915ED8214001BE968 /* CMTPCustomForce.m in Sources */,
+				8352AEDA15ED8214001BE968 /* CMTPForce.m in Sources */,
+				8352AEDB15ED8214001BE968 /* CMTPIntegrator.m in Sources */,
+				8352AEDC15ED8214001BE968 /* CMTPModifiedEulerIntegrator.m in Sources */,
+				8352AEDD15ED8214001BE968 /* CMTPParticle.m in Sources */,
+				8352AEDE15ED8214001BE968 /* CMTPParticleSystem.m in Sources */,
+				8352AEDF15ED8214001BE968 /* CMTPRungeKuttaIntegrator.m in Sources */,
+				8352AEE015ED8214001BE968 /* CMTPSpring.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D18AA215AE86B3002A9A3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D18AB615AE86B3002A9A3F /* FancySegueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83D18AAD15AE86B3002A9A3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83D18A8215AE86B3002A9A3F /* FancySegue */;
+			targetProxy = 83D18AAC15AE86B3002A9A3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83D18A9015AE86B3002A9A3F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D18A9115AE86B3002A9A3F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83D18A9915AE86B3002A9A3F /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D18A9A15AE86B3002A9A3F /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		83D18A9C15AE86B3002A9A3F /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D18A9D15AE86B3002A9A3F /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		83D18AB115AE86B3002A9A3F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D18AB215AE86B3002A9A3F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83D18AB715AE86B3002A9A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83D18AB815AE86B3002A9A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83D18ABA15AE86B3002A9A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FancySegue/FancySegue-Prefix.pch";
+				INFOPLIST_FILE = "FancySegue/FancySegue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83D18ABB15AE86B3002A9A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FancySegue/FancySegue-Prefix.pch";
+				INFOPLIST_FILE = "FancySegue/FancySegue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		83D18ABD15AE86B3002A9A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FancySegue.app/FancySegue";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FancySegue/FancySegue-Prefix.pch";
+				INFOPLIST_FILE = "FancySegueTests/FancySegueTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		83D18ABE15AE86B3002A9A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FancySegue.app/FancySegue";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FancySegue/FancySegue-Prefix.pch";
+				INFOPLIST_FILE = "FancySegueTests/FancySegueTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83D18A7D15AE86B3002A9A3F /* Build configuration list for PBXProject "FancySegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D18AB715AE86B3002A9A3F /* Debug */,
+				83D18AB815AE86B3002A9A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D18AB915AE86B3002A9A3F /* Build configuration list for PBXNativeTarget "FancySegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D18ABA15AE86B3002A9A3F /* Debug */,
+				83D18ABB15AE86B3002A9A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D18ABC15AE86B3002A9A3F /* Build configuration list for PBXNativeTarget "FancySegueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D18ABD15AE86B3002A9A3F /* Debug */,
+				83D18ABE15AE86B3002A9A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83D18A7A15AE86B3002A9A3F /* Project object */;
+}
