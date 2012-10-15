@@ -45,5 +45,12 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>appicon57.png</string>
+		<string>appicon57@2x.png</string>
+		<string>appicon72.png</string>
+		<string>appicon72@2x.png</string>
+	</array>
 </dict>
 </plist>
