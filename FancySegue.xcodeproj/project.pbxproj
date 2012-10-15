@@ -12,6 +12,7 @@
 		83258CA4162CBE4800776589 /* appicon57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83258CA0162CBE4800776589 /* appicon57@2x.png */; };
 		83258CA5162CBE4800776589 /* appicon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 83258CA1162CBE4800776589 /* appicon72.png */; };
 		83258CA6162CBE4800776589 /* appicon72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83258CA2162CBE4800776589 /* appicon72@2x.png */; };
+		83259B87162CBEA5008D343A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83259B86162CBEA5008D343A /* Default-568h@2x.png */; };
 		8342954315B6698400B7E12A /* FSGLTileFlyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8342954215B6698400B7E12A /* FSGLTileFlyViewController.m */; };
 		8342954B15B6A3F700B7E12A /* miles_photo_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8342954715B6A3F700B7E12A /* miles_photo_1.jpg */; };
 		8342954C15B6A3F700B7E12A /* miles_photo_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8342954815B6A3F700B7E12A /* miles_photo_2.jpg */; };
@@ -66,6 +67,7 @@
 		83258CA0162CBE4800776589 /* appicon57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon57@2x.png"; sourceTree = "<group>"; };
 		83258CA1162CBE4800776589 /* appicon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon72.png; sourceTree = "<group>"; };
 		83258CA2162CBE4800776589 /* appicon72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon72@2x.png"; sourceTree = "<group>"; };
+		83259B86162CBEA5008D343A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8342954115B6698400B7E12A /* FSGLTileFlyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSGLTileFlyViewController.h; sourceTree = "<group>"; };
 		8342954215B6698400B7E12A /* FSGLTileFlyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSGLTileFlyViewController.m; sourceTree = "<group>"; };
 		8342954715B6A3F700B7E12A /* miles_photo_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = miles_photo_1.jpg; sourceTree = "<group>"; };
@@ -221,6 +223,7 @@
 		83D18A7815AE86B2002A9A3F = {
 			isa = PBXGroup;
 			children = (
+				83259B86162CBEA5008D343A /* Default-568h@2x.png */,
 				8352AEC115ED8214001BE968 /* Libraries */,
 				83D18A8D15AE86B3002A9A3F /* FancySegue */,
 				83D18AAE15AE86B3002A9A3F /* FancySegueTests */,
@@ -391,6 +394,7 @@
 				83258CA4162CBE4800776589 /* appicon57@2x.png in Resources */,
 				83258CA5162CBE4800776589 /* appicon72.png in Resources */,
 				83258CA6162CBE4800776589 /* appicon72@2x.png in Resources */,
+				83259B87162CBEA5008D343A /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
