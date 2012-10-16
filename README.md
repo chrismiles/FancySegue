@@ -7,7 +7,31 @@ Fancy storyboard segue transitions rendered with OpenGL ES.
 
 Originally presented during the OpenGL ES for iOS 5 talk by Chris Miles at Swipe Conference 2012.
 
-http://swipeconference.com.au/sessions#27-opengl-es-with-ios-5-part-2-rendering-a-masterpiece
+<http://swipeconference.com.au/sessions#27-opengl-es-with-ios-5-part-2-rendering-a-masterpiece>
+
+The app demonstrates how to create fancy storyboard segue transitions using OpenGL ES and GLKit.
+
+Transitions include:
+
+* 3D box
+* Tile fly
+* Cloth flip
+
+The app is universal and supports all orientations.
+
+
+Presentation
+------------
+
+Download the slides (PDF) for the presentation from <http://chrismiles.info/presentations/SwipeConf-2012-OpenGL-ES-iOS5/Swipe-2012-OpenGL-ES-iOS5-Part2.pdf>
+
+
+Images
+------
+
+![FancySegue Box Transition](https://lh4.googleusercontent.com/-k8t4avysx6g/UH0g-KHK3AI/AAAAAAAAAUs/Egf_eRjI-zA/s800/FancySegue-BoxTransition.png "FancySegue Box Transition")
+![FancySegue Tile Fly Transition](https://lh6.googleusercontent.com/-PljJnLD9gDw/UH0g_V-bIUI/AAAAAAAAAU0/Tu3tpT4JJzc/s800/FancySegue-TileFlyTransition.png "FancySegue Tile Fly Transition")
+![FancySegue Cloth Flip Transition](https://lh6.googleusercontent.com/-Vbgtk8Sp0Jk/UH0g9XyXznI/AAAAAAAAAUk/H-QwXezCp7A/s800/FancySegue-ClothFlipTransition.png "FancySegue Cloth Flip Transition")
 
 
 License
