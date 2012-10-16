@@ -52,5 +52,7 @@
 		<string>appicon72.png</string>
 		<string>appicon72@2x.png</string>
 	</array>
+	<key>UIPrerenderedIcon</key>
+	<true/>
 </dict>
 </plist>
