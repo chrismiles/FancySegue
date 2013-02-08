@@ -23,7 +23,7 @@ The app is universal and supports all orientations.
 Presentation
 ------------
 
-Download the slides (PDF) for the presentation from <http://chrismiles.info/presentations/SwipeConf-2012-OpenGL-ES-iOS5/Swipe-2012-OpenGL-ES-iOS5-Part2.pdf>
+Find the presentation slides at <https://speakerdeck.com/chrismiles/opengl-es-with-ios-5-part-2-rendering-a-masterpiece>
 
 
 Images
