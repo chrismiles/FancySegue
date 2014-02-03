@@ -23,6 +23,8 @@ The app is universal and supports all orientations.
 Presentation
 ------------
 
+Watch the presentation video at <https://www.youtube.com/watch?v=dkqBjsEpt5g>
+
 Find the presentation slides at <https://speakerdeck.com/chrismiles/opengl-es-with-ios-5-part-2-rendering-a-masterpiece>
 
 
